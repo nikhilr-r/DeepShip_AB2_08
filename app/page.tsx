@@ -27,24 +27,14 @@ const Home: NextPage = () => {
         <motion.div className="max-w-md" variants={fadeInUp} initial="initial" animate="animate">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
             <span className="text-2xl md:text-3xl block text-orange-500">Welcome to</span>
-            Cultivating Co
+            AGRI-CULTURE
           </h1>
-          <p className="my-4 text-gray-600">Growing better plants for a better world</p>
+          <p className="my-4 text-gray-600">Peer to Peer Bonds between Farmer and Consumer</p>
           <Button className="bg-yellow-400 hover:bg-yellow-500 text-gray-800 font-medium rounded-full px-6">
             Get Started
           </Button>
 
-          <div className="flex gap-2 mt-6">
-            <Link href="#" className="bg-black text-white px-4 py-2 rounded-lg flex items-center gap-2">
-              <Image src="/placeholder.svg?height=20&width=20&text=App" width={20} height={20} alt="App Store" />
-              App Store
-            </Link>
-            <Link href="#" className="bg-black text-white px-4 py-2 rounded-lg flex items-center gap-2">
-              <Image src="/placeholder.svg?height=20&width=20&text=Play" width={20} height={20} alt="Play Store" />
-              Play Store
-            </Link>
-          </div>
-        </motion.div>
+          </motion.div>
         <motion.div
           className="mt-8 md:mt-0"
           initial={{ opacity: 0, scale: 0.8 }}
@@ -52,7 +42,7 @@ const Home: NextPage = () => {
           transition={{ duration: 0.8 }}
         >
           <Image
-            src="/placeholder.svg?height=400&width=400&text=Farmer"
+            src="/logo.png?height=400&width=400&text=Farmer"
             width={400}
             height={400}
             alt="Farmer character holding plants"
@@ -104,7 +94,7 @@ const Home: NextPage = () => {
       >
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-gray-800">
-            Our Sus<span className="text-transparent">tainability</span>
+            Our Sustainability<span className="text-transparent"></span>
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {["Tomato", "Carrot", "Broccoli", "Cabbage"].map((vegetable, index) => (
